@@ -3,7 +3,7 @@ const remote = require('electron').remote;
 const Store = require('electron-store');
 const settings = new Store({name: 'Settings'});
 
-const DEFAULT_TITLE = 'WalletShell TurtleCoin Wallet';
+const DEFAULT_TITLE = 'XWallet Aeon Classic Wallet';
 const SESSION_KEY = 'wlshell';
 
 // TODO: this is the only thing left as global
