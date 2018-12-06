@@ -48,15 +48,15 @@ config.addressLength = 97;
 config.integratedAddressLength = 185;
 
 // minimum fee for sending transaction
-config.minimumFee = 0.01;
+config.minimumFee = 0.00000100;
 // minimum amount for sending transaction
-config.mininumSend = 0.00000000001;
+config.mininumSend = 0.00000001;
 // default mixin/anonimity for transaction
 config.defaultMixin = 3;
 // to convert from atomic unit
-config.decimalDivisor = 1000000000000;
+config.decimalDivisor = 100000000;
 // to represent human readable value
-config.decimalPlaces = 12;
+config.decimalPlaces = 8;
 
 // obfuscate address book entries, set to false if you want to save it in plain json file.
 // not for security because the encryption key is attached here
