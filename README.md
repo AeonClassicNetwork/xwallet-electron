@@ -1,3 +1,5 @@
+## XWallet GUI Wallet
+
 XWallet is a GUI wallet for Aeon Classic.
 
 ### Features:
