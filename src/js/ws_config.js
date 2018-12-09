@@ -29,7 +29,7 @@ config.blockExplorerUrl = '';
 config.remoteNodeDefaultHost = '104.238.171.159';
 
 // remote node list update url, set to null if you don't have one
-config.remoteNodeListUpdateUrl = 'null';
+config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/Biolith/public-nodes-json/master/public-nodes.json';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
