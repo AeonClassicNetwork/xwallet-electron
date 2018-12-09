@@ -2,7 +2,7 @@
   "name": "xwalletgui",
   "productName": "XWallet",
   "description": "Aeon Classic GUI Wallet",
-  "version": "v0.3.6",
+  "version": "v0.3.7",
   "homepage": "https://github.com/Biolith/wallet-electron",
   "repository": "https://github.com/Biolith/wallet-electron",
   "main": "main.js",
@@ -10,9 +10,9 @@
     "start": "electron .",
     "debug": "electron . debug",
     "dev": "electron . dev",
-    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/turtle-service.exe",
-    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/turtle-service",
-    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/turtle-service"
+    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/AC-service.exe",
+    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/AC-service",
+    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/AC-service"
   },
   "keywords": [],
   "author": "Rixombea, Macroshock, TurtleCoin Developers",

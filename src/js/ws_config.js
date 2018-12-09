@@ -26,14 +26,14 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = '';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '104.238.171.159';
+config.remoteNodeDefaultHost = '95.179.197.19';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/Biolith/public-nodes-json/master/public-nodes.json';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-    '104.238.171.159:10002',
+    '95.179.197.19:10002',
 ];
 
 // your currency name
