@@ -22,8 +22,8 @@ config.walletServiceBinaryVersion = "v0.0.1";
 // default port number for your wallet service (e.g. turtle-service)
 config.walletServiceRpcPort = 8070;
 
-// block explorer url, the [[TX_HASH] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = '';
+// block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
+config.blockExplorerUrl = 'https://explorer.aeonclassic.org/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = 'hashblaster.com';
