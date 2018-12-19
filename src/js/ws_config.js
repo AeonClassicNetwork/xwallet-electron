@@ -5,7 +5,7 @@ config.appName = 'XWallet';
 config.appDescription = 'Aeon Classic Wallet';
 config.appSlogan = 'Privacy oriented with a mobile focus.';
 config.appId = 'aeonclassic.xwallet';
-config.appGitRepo = 'https://github.com/Biolith/wallet-electron/';
+config.appGitRepo = 'https://github.com/Biolith/xwallet-electron/';
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 10002;
@@ -26,14 +26,16 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = '';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '95.179.197.19';
+config.remoteNodeDefaultHost = 'hashblaster.com';
 
 // remote node list update url, set to null if you don't have one
 config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/Biolith/public-nodes-json/master/public-nodes.json';
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-    '95.179.197.19:10002',
+    'hashblaster.com:10002',
+    'explorer.aeonclassic.org:10002',
+    'xmlc.ml:10002',
 ];
 
 // your currency name
