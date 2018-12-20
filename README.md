@@ -2,6 +2,8 @@
 
 XWallet is a GUI wallet for Aeon Classic.
 
+(https://aeonclassic.org/img/xwallet-screen.png)
+
 ### Features:
 This wallet contains the basic functions required to manage your Aeon Classic assets:
 
